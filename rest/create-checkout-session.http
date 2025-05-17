@@ -1,0 +1,7 @@
+### Create Checkout Session (POST request)
+POST http://localhost:3005/create-checkout-session
+Content-Type: application/json
+
+{
+  "priceId": "price_1RDrSADGAwN6vqvAuxVgnrHv"
+}

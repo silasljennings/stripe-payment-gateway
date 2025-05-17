@@ -1,0 +1,8 @@
+### Retrieve Payment Intent (GET request)
+GET http://localhost:3005/retrieve-payment-intent/{paymentIntentId}
+Content-Type: application/json
+
+{
+  "paymentIntentId": "pi_test_xxxx"
+}
+

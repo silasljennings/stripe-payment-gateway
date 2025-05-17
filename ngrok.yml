@@ -1,0 +1,11 @@
+version: "3"
+agent:
+  authtoken: 2vsqa1YRblJDwXcEKEtYuDfzKYO_789ogcN5uC2Mxm5was6sq
+tunnels:
+  stripe-webhook:
+    proto: http
+    addr: 3005
+
+  auth-service:
+    proto: http
+    addr: 4000

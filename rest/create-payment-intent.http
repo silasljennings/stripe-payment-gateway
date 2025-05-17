@@ -1,0 +1,9 @@
+### Create Payment Intent (POST request)
+## amount is in cents
+POST http://localhost:3005/create-payment-intent
+Content-Type: application/json
+
+{
+  "amount": 2000,
+  "currency": "usd"
+}

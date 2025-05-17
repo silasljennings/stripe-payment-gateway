@@ -1,0 +1,22 @@
+{
+  "name": "stripe-payment-gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development concurrently \"npm run server\" \"npm run ngrok\"",
+    "server": "node server.js",
+    "ngrok": "ngrok start stripe-webhook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "stripe": "^18.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
