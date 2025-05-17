@@ -1,0 +1,39 @@
+# Node modules
+/node_modules/
+
+# Build output
+/dist/
+/build/
+/out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Service account key file directory (add path to your service account key folder)
+/path/to/service-account-keys/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+/pnpm-lock.yaml
+/package-lock.json
+/yarn.lock
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.tmp
+
