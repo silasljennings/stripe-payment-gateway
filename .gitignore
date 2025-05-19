@@ -11,8 +11,6 @@
 .env.local
 .env.*.local
 
-# Service account key file directory (add path to your service account key folder)
-/path/to/service-account-keys/
 
 # Logs
 *.log
